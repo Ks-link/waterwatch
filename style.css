@@ -29,9 +29,19 @@
 --------------------------------------------- */
 
 
-/* Services Page
+/* Members Page
 --------------------------------------------- */
+.members-img img {
+    border-radius: 1.25rem;
+}
 
+.members-heading {
+    height: 2.5rem;
+}
+
+.members-paragraph {
+    height: 5rem;
+}
 
 /* About Page
 --------------------------------------------- */
