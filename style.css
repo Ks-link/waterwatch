@@ -12,6 +12,17 @@
     Update URI:   false
 */
 
+:root {
+    /** dark mode **/
+    .blogzee-dark-mode {
+        --event-text: #fff;
+    }
+
+    /** light mode **/
+    .blogzee-light-mode {
+        --event-text: #2f2e2e;
+    }
+}
 
 /* Header
 --------------------------------------------- */
@@ -23,6 +34,18 @@
 
 /* Widgets
 --------------------------------------------- */
+
+/* Event calender */
+.tribe-events-c-top-bar__datepicker-desktop,
+#tribe-events-content h1,
+#tribe-events-content a,
+#tribe-events-content p,
+#tribe-events-content .tribe-event-date-start,
+#tribe-events-content .tribe-event-time,
+#tribe-events-content .tribe-events-single-section-title,
+#tribe-events-content dl {
+    color: var(--event-text);
+}
 
 
 /* Homepage
