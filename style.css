@@ -16,11 +16,13 @@
     /** dark mode **/
     .blogzee-dark-mode {
         --event-text: #fff;
+        --event-background-color: #2f2e2e;
     }
 
     /** light mode **/
     .blogzee-light-mode {
         --event-text: #2f2e2e;
+        --event-background-color: #fff;
     }
 }
 
@@ -45,6 +47,10 @@
 #tribe-events-content .tribe-events-single-section-title,
 #tribe-events-content dl {
     color: var(--event-text);
+}
+
+#tribe-events-content .tribe-events-c-subscribe-dropdown__list {
+    background-color: var(--event-background-color);
 }
 
 
