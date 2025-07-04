@@ -49,6 +49,13 @@
     width: 100%;
 }
 
-
 /* About Page
 --------------------------------------------- */
+
+
+/* General Styles
+--------------------------------------------- */
+.wp-block-button a:visited,
+.wp-block-button a:hover {
+    color: #0e87CC !important;
+}
