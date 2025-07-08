@@ -45,14 +45,25 @@
 #tribe-events-content .tribe-event-date-start,
 #tribe-events-content .tribe-event-time,
 #tribe-events-content .tribe-events-single-section-title,
-#tribe-events-content dl {
-    color: var(--event-text);
+#tribe-events-content dl,
+.tribe-events-widget-events-list__event-datetime-wrapper,
+.tribe-events-widget-events-list__view-more-link.tribe-common-anchor-thin,
+h3 .tribe-events-widget-events-list__event-title-link.tribe-common-anchor-thin,
+.tribe-events-widget-events-list__event-datetime-wrapper.tribe-common-b2.tribe-common-b3--min-medium,
+.tribe-events-widget-events-list__event-date-tag-daynum.tribe-common-h2.tribe-common-h4--min-medium,
+.tribe-events-c-messages__message-list-item-link.tribe-common-anchor-thin-alt,
+.tribe-events-c-messages__message.tribe-events-c-messages__message--notice {
+    color: var(--event-text) !important;
 }
 
-#tribe-events-content .tribe-events-c-subscribe-dropdown__list {
+#tribe-events-content .tribe-events-c-subscribe-dropdown__list,
+.tribe-events-c-messages__message.tribe-events-c-messages__message--notice {
     background-color: var(--event-background-color);
 }
 
+svg .tribe-common-c-svgicon__svg-fill {
+    fill: var(--event-text) !important;
+}
 
 /* Homepage
 --------------------------------------------- */
