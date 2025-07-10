@@ -32,6 +32,10 @@
 
 /* Footer
 --------------------------------------------- */
+.footer-link a {
+    text-decoration: underline;
+    color: var(--event-text);
+}
 
 
 /* Widgets
