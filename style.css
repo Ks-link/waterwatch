@@ -104,6 +104,12 @@ svg .tribe-common-c-svgicon__svg-fill {
     color: #0e87CC !important;
 }
 
+/* hide comment icon on home page */
 .post-comments-num.hide-on-mobile {
     display: none !important;
+}
+
+/* change color of category tags */
+.post-categories .cat-item a {
+    color: #fff !important;
 }
