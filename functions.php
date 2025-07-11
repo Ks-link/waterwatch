@@ -94,3 +94,16 @@ function custom_dashboard_help()
         </video>';
 }
 add_action('wp_dashboard_setup', 'add_custom_dashboard_widget');
+
+// add ability to edit events plugin in author role
+function add_events_capabilities_to_authors() {
+    $role = get_role('author');
+    if ($role) {
+        $role->add_cap('edit_tribe_events');
+        $role->add_cap('edit_others_tribe_events');
+        $role->add_cap('publish_tribe_events');
+        $role->add_cap('delete_tribe_events');
+        $role->add_cap('delete_others_tribe_events');
+    }
+}
+add_action('admin_init', 'add_events_capabilities_to_authors');
