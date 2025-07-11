@@ -75,6 +75,10 @@ function remove_unwanted_dashboard_widgets()
 
     // remove duplicator widget
     remove_meta_box("duplicator_dashboard_widget", 'dashboard', 'normal');
+
+    // remove yoast widgets
+    remove_meta_box("wpseo-dashboard-overview", 'dashboard', 'normal');
+    remove_meta_box("wpseo-wincher-dashboard-overview", 'dashboard', 'normal');
     
 }
 add_action('wp_dashboard_setup', 'remove_unwanted_dashboard_widgets');

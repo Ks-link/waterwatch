@@ -103,3 +103,7 @@ svg .tribe-common-c-svgicon__svg-fill {
 .wp-block-button a:hover {
     color: #0e87CC !important;
 }
+
+.post-comments-num.hide-on-mobile {
+    display: none !important;
+}
