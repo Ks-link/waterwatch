@@ -86,10 +86,17 @@ add_action('wp_dashboard_setup', 'remove_unwanted_dashboard_widgets');
 function custom_dashboard_help()
 {
     $create_post_tutorial_url = get_stylesheet_directory_uri() . '/media/creating-a-post.mp4';
+    $edit_page_tutorial_url = get_stylesheet_directory_uri() . '/media/edit-page.mp4';
 
     echo '<p>Watch the video below to learn how to create and edit a post:</p>';
     echo '<video width="560" height="315" controls>
             <source src="' . esc_url($create_post_tutorial_url) . '" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>';
+
+    echo '<p>Watch the video below to learn how to edit a page:</p>';
+    echo '<video width="560" height="315" controls>
+            <source src="' . esc_url($edit_page_tutorial_url) . '" type="video/mp4">
             Your browser does not support the video tag.
         </video>';
 }
