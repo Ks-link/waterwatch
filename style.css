@@ -111,5 +111,6 @@ svg .tribe-common-c-svgicon__svg-fill {
 
 /* change color of category tags */
 .post-categories .cat-item a {
-    color: #fff !important;
+    color: #0E87CC !important;
+    border: #0E87CC 1px solid !important;
 }
