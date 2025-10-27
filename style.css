@@ -42,6 +42,10 @@
 --------------------------------------------- */
 
 /* Event calender */
+.tribe-compatibility-container.widget {
+    margin-bottom: 2rem !important;
+}
+
 .tribe-events-c-top-bar__datepicker-desktop,
 #tribe-events-content h1,
 #tribe-events-content a,
